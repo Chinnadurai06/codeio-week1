@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class q6 {
+public class Q6 {
     public static void main(String[] args) {
         Scanner hello=new Scanner(System.in);
-        int marks=hello.nextInt();
+        int marks=hello.nextInt();  // user input
         if(marks>=90){
-            System.out.println("A");
+            System.out.println("A"); //grade passed problem
         }
         if(marks>=75&&marks<90){
             System.out.println("B");
